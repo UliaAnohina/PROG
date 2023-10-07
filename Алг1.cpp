@@ -9,7 +9,7 @@ int nod(int num1, int num2)
     num1 = num2;
     num2 = n;
     if (n > 0)
-        return nod(num1, num2);
+        return nod(num1, num2); 
     else
         return num1;
 }
